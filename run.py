@@ -6,4 +6,6 @@ while len(username) < 1 or username.isalpha() is False:
     username = input('Please inser ypu name\n')
 
 picked = random.choice(mainwords)
-print(picked)
+print('The word has', len(picked), 'letters.')
+correct = ['_'] * len(picked)
+wrong = []
