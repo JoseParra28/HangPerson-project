@@ -15,7 +15,7 @@ def update():
         print('Ok!',username, 'let me think of a word')
 
 def loadig():
-    for i in range(4):
+    for i in range(5):
         print('.', end='')
         sleep(0.4)
         print()  
@@ -45,4 +45,13 @@ while True:
                 index += 1 
                 update()
                 parts(len(wrong))
+
+            else:
+                if guess not in wrong:
+                    wrong.append(guess)
+                    parts(len(wrong))
+                    print("That's not correct")
+                else:
+                    print('You already guessed that!')
+
 
