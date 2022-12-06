@@ -5,5 +5,5 @@ while len(username) < 1 or username.isalpha() is False:
     print('Please insert letters only \n')
     username = input('Please inser ypu name\n')
 
-
-   
+picked = random.choice(mainwords)
+print(picked)
