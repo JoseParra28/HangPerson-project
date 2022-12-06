@@ -1,5 +1,6 @@
 import random
 from words import mainwords
+from bodyparts import parts
 from time import sleep
 
 username = input("Welcome to HangPerson! \nPlease insert your name\n")
@@ -14,7 +15,7 @@ def update():
         print('Ok!',username, 'let me think of a word')
 
 def loadig():
-    for i in range(5):
+    for i in range(4):
         print('.', end='')
         sleep(0.4)
         print()  
@@ -27,3 +28,5 @@ correct = ['_'] * len(picked)
 wrong = []
 
 update()
+parts(len(wrong))
+
