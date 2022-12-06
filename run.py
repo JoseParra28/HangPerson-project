@@ -15,7 +15,7 @@ def update():
         print('Ok!',username, 'let me think of a word')
 
 def loadig():
-    for i in range(5):
+    for i in range(4):
         print('.', end='')
         sleep(0.4)
         print()  
@@ -53,5 +53,12 @@ while True:
                     print("That's not correct")
                 else:
                     print('You already guessed that!')
+                if len(wrong) > 4:
+                    print('Oh no' , username , "you didn't win this time\n Game over !!")
+                    print('I picked', [picked])
+                    break 
+                if '_' not in correct:
+                    print('Yay' , username , 'you won!')
+                    break 
 
 
