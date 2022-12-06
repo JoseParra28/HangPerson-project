@@ -9,3 +9,8 @@ picked = random.choice(mainwords)
 print('The word has', len(picked), 'letters.')
 correct = ['_'] * len(picked)
 wrong = []
+
+def update():
+    for i in correct:
+        print(i, end='')
+        print()
