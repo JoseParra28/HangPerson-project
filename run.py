@@ -7,10 +7,6 @@ while len(username) < 1 or username.isalpha() is False:
     print('Please insert letters only \n')
     username = input('Please inser ypu name\n')
 
-picked = random.choice(mainwords)
-print('The word has', len(picked), 'letters.')
-correct = ['_'] * len(picked)
-wrong = []
 
 def update():
     for i in correct:
@@ -21,4 +17,13 @@ def loadig():
     for i in range(5):
         print('.', end='')
         sleep(0.4)
-        print()        
+        print()  
+
+loadig()              
+
+picked = random.choice(mainwords)
+print('The word has', len(picked), 'letters.')
+correct = ['_'] * len(picked)
+wrong = []
+
+update()
