@@ -20,7 +20,7 @@ def loadig():
         sleep(0.4)
         print()  
 
-loadig()              
+    loadig()              
 
 picked = random.choice(mainwords)
 print('The word has', len(picked), 'letters.')
@@ -35,4 +35,14 @@ while True:
     guess = input('Please guess a letter\n')
     print('Let me check...')
     loadig()
+
+    if guess in picked:
+        index = 0
+        for i in picked:
+            if i == guess:
+                correct[index] = guess
+                print("That's correct", username)
+                index += 1 
+                update()
+                parts(len(wrong))
 
