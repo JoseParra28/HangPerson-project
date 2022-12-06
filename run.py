@@ -30,3 +30,9 @@ wrong = []
 update()
 parts(len(wrong))
 
+while True:
+
+    guess = input('Please guess a letter\n')
+    print('Let me check...')
+    loadig()
+
