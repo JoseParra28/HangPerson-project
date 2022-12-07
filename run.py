@@ -28,8 +28,8 @@ def update():
 print('Let me think of a word', username)
 
 def loading():
-  for i in range(5):
-    print('.', end = '' )
+  for i in range(6):
+    print('-', end = '' )
     sleep(0.4)
   print() 
 
@@ -37,7 +37,7 @@ loading()
 
 
 picked = random.choice(mainwords)
-print('The word has', len(picked), 'letters.')
+print('Ok',username,'the word has', len(picked), 'letters.')
 correct = ['_'] * len(picked)
 wrong = []
 
