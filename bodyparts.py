@@ -1,3 +1,8 @@
+"""
+ This funtion contains the "wrong words" parts,
+  it prints each peace of code gradually if the user types a wrong litter
+"""
+
 def parts(x):
     if x == 0:
         print(''  '--------')

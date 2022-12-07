@@ -76,7 +76,7 @@ while True:
       index += 1
     update()  
     parts(len(wrong))
-   
+  
   else:
       if guess not in wrong:
           wrong.append(guess)
