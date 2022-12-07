@@ -3,6 +3,17 @@ from words import mainwords
 from bodyparts import parts
 from time import sleep
 
+
+class Welcome:
+  def __init__(self, message,rules):
+    self.message = message
+    self.rules = rules
+
+
+pregame = Welcome('hello', 'gamerules')
+print('welcome to python')
+
+
 username = input("Welcome to HangPerson 😎\nPlease insert your name\n")
 while len(username) < 1 or username.isalpha() is False:
   print('Please insert letters only 💀 \n')
