@@ -45,14 +45,14 @@
 
 # Future features 
 
-## Create a restart buttom
-## Allow the user select the difficulti
-## Create a timer to finish the game
+- Create a restart buttom
+- Allow the user select the difficulti
+- Create a timer to finish the game
 
 # Testing
-## I have manually tested the code:
-## Passed the code through PEP8 not experiencing any main problems
-## Tested in my local terminal and in the Code Institute Heroku terminal
+- I have manually tested the code:
+- Passed the code through PEP8 not experiencing any main problems
+- Tested in my local terminal and in the Code Institute Heroku terminal
 
 # Bugs
 ## No bugs found during this project and there aren't any bugs that i am aware of.
@@ -61,7 +61,7 @@
 # Deployment
 ## This project was deployed using Code Institute's mock terminal for Heroku.
 
-- Steps for deployment:
+- Steps of deployment:
 - Push the code done on GitHub
 - Create a New Heroku app
 - Connect your GitHub account to your Heroku account
@@ -71,13 +71,14 @@
 
 # Credits 
 
-## knowledge reinforcement from Udemi online courses https://www.udemy.com/course/the-python-mega-course/learn/lecture/34597254?start=360#overview 
-## Validated username input input from https://github.com/Dimifabbridf96/Hangman
-## Time delay tutorial from https://www.youtube.com/watch?v=RBWEqy8XOlA
-## Overall Python tutorials from Youtube
+- knowledge reinforcement from Udemi online courses https://www.udemy.com/course/the-python-mega-course/learn/lecture/34597254?start=360#overview 
+- Validated username input input from https://github.com/Dimifabbridf96/Hangman
+- Time delay tutorial from https://www.youtube.com/watch?v=RBWEqy8XOlA
+- Overall Python tutorials from Youtube
 Tech with mike  https://www.youtube.com/@TechwithMikeYT
 Kite https://www.youtube.com/watch?v=m4nEnsavl6w&t=450s
 Mr nobody https://www.youtube.com/watch?v=oZZXrWLoGnM&t=383s
+- I want to thank my mentor Jubril Akolade for all his help.
 
 
 
