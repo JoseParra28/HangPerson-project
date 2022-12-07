@@ -11,10 +11,11 @@ class Welcome:
 
 
 pregame = Welcome('hello', 'gamerules')
-print('welcome to python')
+print('\nWelcome to HangPerson\n')
+print('Game rules: I will randomly pick a word\n and you will have to guess each letter of the word,\n if the letter is correct, it will be added to the correct letters,\n but if is not correct, you will be slowly hung\n Good Luck!!')
 
 
-username = input("Welcome to HangPerson 😎\nPlease insert your name\n")
+username = input("Please insert your name\n")
 while len(username) < 1 or username.isalpha() is False:
   print('Please insert letters only 💀 \n')
   username = input("Please insert you name\n")
@@ -46,7 +47,7 @@ parts(len(wrong))
 while True:
 
   guess = input("Please guess a letter\n")
-  print('Let me check...')
+  print("Let me see if if that's correct...")
   loading()
 
   if guess in picked:
@@ -63,7 +64,7 @@ while True:
       if guess not in wrong:
           wrong.append(guess)
           parts(len(wrong))
-          print("That's not correct 🥺, try another letter.\n You wrote:", wrong)
+          print("That's not correct 🥺 try another letter.\n You wrote:", wrong)
       else:
           print('You already guessed that!🤯') 
   if len(wrong) > 4:
