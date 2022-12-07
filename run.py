@@ -18,7 +18,7 @@ print('\nWelcome to HangPerson\n')
 print('Game rules: I will randomly pick a word\n and you will have to guess each letter of the word,\n if the letter is correct, it will be added to the correct letters,\n but if is not correct, you will be slowly hung\n Good Luck!!')
 
 """
- Username is validated, it can only contain at least on letter, no numbers.
+ Username is validated, it can only contain at least on letter, no numbers
 """
 username = input("Please insert your name\n")
 while len(username) < 1 or username.isalpha() is False:
@@ -72,11 +72,11 @@ while True:
     for i in picked:
       if i == guess:
         correct[index] = guess
-        print("That's correct! 🤟")
+        print("That's correct 🤟 Well done",username)
       index += 1
     update()  
     parts(len(wrong))
-  
+   
   else:
       if guess not in wrong:
           wrong.append(guess)
